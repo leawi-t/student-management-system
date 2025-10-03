@@ -1,4 +1,4 @@
-# Student manaagement system
+# Student management system
 
 An application that allows users to view and manage **students, courses, and grades** in a university.  
 Built with **Java** and **MySQL**.
