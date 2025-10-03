@@ -1,22 +1,45 @@
 # Student manaagement system
 
-An application system that allows the user to view and manage the students, courses and grades of students in a university.
-Made by using java and My-SQL for the database
+An application that allows users to view and manage **students, courses, and grades** in a university.  
+Built with **Java** and **MySQL**.
 
 ---
 
 ## 📸 Preview
-![Project Screenshot](screenshot.png) <!-- optional: add a screenshot of your project -->
+![Project Screenshot](src/screenshot.png) <!-- optional: add a screenshot of your project -->
 
 ---
 
 ## Features
-- Responsive design (works on mobile, tablet, and desktop)
-- Card layout for simple and clean design
-- Automatic calculation of gpa
+- Manage students (add, update, delete, search)
+- Manage courses (add, update, delete, search)
+- Record and view course enrollments
+- Automatic calculation of student GPA
+- MySQL database integration
+- GUI built with Java Swing (optional: add if true)
 
 ---
 
 ## Built With
-- java
-- My-SQL
+- **Java (Swing, JDBC)**
+- **MySQL Database**
+
+## Project structure
+student-management-system/
+├── src/                   # Source code (Java classes, GUI, DB utils)
+├── resources/             # (Optional) config files, SQL scripts
+├── screenshot.png          # Project screenshot
+└── README.md
+
+### Prerequisites
+- Java 17+ (or whichever version you used)
+- MySQL installed and running
+- A MySQL user and database created (e.g., `student_db`)
+
+## How to Use
+1. Clone the repository  
+   git clone https://github.com/leawi-t/student-management-system.git
+
+#Author
+Leawi Taddesse
+https://github.com/leawi-t
